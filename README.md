@@ -7,10 +7,11 @@ Skriv ut kortleken i konsollen, varje kort ska innehålla sin färg, sitt namn o
 Blanda kortleken, skriv ut den blandade kortleken i konsollen.
 
 ## Del 2
+
 Skapa två spelare “Slim” och “Luke”, de ska kunna hålla varsin hand med kort. Skriv ut spelarna i konsollen.
 Dela ut 5 kort vardera till spelarna.
-Skriv ut kortleken (nu med 42 kort kvar) och spelarna (nu med 5 kort var) i konsollen. Skriv också ut spelarnas händers sammanlagda numeriska värde. 
- 
+Skriv ut kortleken (nu med 42 kort kvar) och spelarna (nu med 5 kort var) i konsollen. Skriv också ut spelarnas händers sammanlagda numeriska värde.
+
 ## Del 3
 
 Låt spelarna lägga slänga 2 kort var i en kasthög.
@@ -22,7 +23,6 @@ Skriv ut kortleken (nu med 38 kort kvar) och spelarna (med 5 kort var) i konsoll
 Låt spelarna slänga alla sina kort i kasthögen.
 Flytta alla kort från kasthögen till kortleken. Nu ska spelarna och kasthögen ha 0 kort och kortleken ska ha 52 kort.
 Blanda kortleken igen och skriv ut den i konsollen.
-
 
 ## Del 5
 
@@ -44,17 +44,13 @@ Skapa en Game-klass som sköter hela pokerspelet. Det enda main ska gör är att
 Game-klassen ska ha en lista med spelare och en instans av Dealer. Kom ihåg att dealern äger instansen av Deck.
 Skapa en metod som heter addPlayers som uppmanar användaren att skriva in antalet spelare (minst två) och sen respektive namn på de spelarna. Utifrån det så ska så många instanser av klassen Player skapas och läggas in listan med spelare.
 Skapa metoden startGame och skriv in logik där ett par spelare skapas, de får varsin hand, korten valideras och skriv ut vinnaren på ett snygg sätt.
- 
+
 ## Del 8
 
 Skapa en game-loop i startGame-metoden som kan hantera att man kör flera rundor. Spelare skapas, de får varsin hand. Man har en slängningsrunda, man får nya kort och sen valideras det och en vinnare utses. Det är en runda. Man kan utöka till fler rundor genom att öka antalet iterationer som loopen går. I varje runda ska de olika spelare kunna välja vilka kort de ska slänga. Alltså bör de få se sin hand varje runda, och en metod för att slänga ett kort på en specifik indexplats bör skapas i spelarens klass eller något liknande.
- 
-
-
- 
 
 ## Frivilligt
-* Försök att skapa en mer verklig validering av korten. Par, tvåpar, triss och så vidare istället för kortens numeriska värden.
-* Lägg till betting inför varje runda
-* Skapa ett UI som följer ett MVC-mönster, d.v.s Model, View, Controller
 
+- Försök att skapa en mer verklig validering av korten. Par, tvåpar, triss och så vidare istället för kortens numeriska värden.
+- Lägg till betting inför varje runda
+- Skapa ett UI som följer ett MVC-mönster, d.v.s Model, View, Controller
